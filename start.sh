@@ -57,8 +57,8 @@ exec ttyd -W \
   -p "${PORT:-10000}" \
   -c "$USER_AUTH" \
   -t titleFixed="Cloud Shell" \
-  -t fontSize=14 \
-  -t fontFamily="'Roboto Mono', 'Fira Code', monospace" \
+  -t fontSize=15 \
+  -t fontFamily="Cascadia Code, Consolas, Liberation Mono, Menlo, monospace" \
   -t cursorStyle="block" \
   -t 'theme={"background":"#101820","foreground":"#E8EAED","cursor":"#8AB4F8","selectionBackground":"#3C4043","black":"#202124","red":"#F28B82","green":"#81C995","yellow":"#FDD663","blue":"#8AB4F8","magenta":"#C58AF9","cyan":"#78D9EC","white":"#E8EAED","brightBlack":"#5F6368","brightRed":"#F28B82","brightGreen":"#81C995","brightYellow":"#FDD663","brightBlue":"#8AB4F8","brightMagenta":"#C58AF9","brightCyan":"#78D9EC","brightWhite":"#FFFFFF"}' \
   bash
